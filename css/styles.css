@@ -8,7 +8,12 @@ h1 {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
+}
 
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .container-fluid {
@@ -44,6 +49,7 @@ h1 {
 }
 
 .title-image {
+/*  margin: 20px auto; */
   transform: rotate(25deg);
   width: 60%;
 }
@@ -54,6 +60,28 @@ h1 {
 }
 
 /****************** 2. Features section **********************/
+
+p {
+  color: #8f8f8f;
+}
+
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.feature-fa {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-fa:hover {
+  color: #ff4c68;
+}
+
+#features {
+  padding: 7% 15%;
+}
 
 /****************** 3. Testimonials section **********************/
 
