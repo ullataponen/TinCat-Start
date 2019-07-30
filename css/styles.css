@@ -10,6 +10,13 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
 h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
@@ -85,7 +92,36 @@ p {
 
 /****************** 3. Testimonials section **********************/
 
+.testimonial-img {
+  border-radius: 100%;
+  width: 20%;
+  height: auto;
+  margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+
+  text-align: center;
+}
+
 /****************** 4. Press section **********************/
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+#press {
+  background-color:  #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
 
 /****************** 5. Pricing section **********************/
 
