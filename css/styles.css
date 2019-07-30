@@ -125,6 +125,15 @@ p {
 
 /****************** 5. Pricing section **********************/
 
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+}
+
 /****************** 6. CTA section **********************/
 
 /****************** 7. Footer section **********************/
