@@ -152,4 +152,28 @@ p {
 
 /****************** 6. CTA section **********************/
 
+.cta-header {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
 /****************** 7. Footer section **********************/
+
+.some-icon {
+  color: #000;
+  margin: 20px 10px;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
