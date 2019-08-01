@@ -24,7 +24,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 /****************** 1. Title section **********************/
@@ -59,11 +59,25 @@ h3 {
 /*  margin: 20px auto; */
   transform: rotate(25deg);
   width: 60%;
+  /* to partially stack behind feature section*/
+  position: absolute;
+  right: 30%;
 }
 
 #title {
   background-color: #ff4c68;
   color: #fff;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
 
 /****************** 2. Features section **********************/
@@ -87,7 +101,10 @@ p {
 }
 
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  /* to appear on top of title-image */
+  position: relative;
 }
 
 /****************** 3. Testimonials section **********************/
@@ -106,7 +123,6 @@ p {
 #testimonials {
   background-color: #ef8172;
   color: #fff;
-
   text-align: center;
 }
 
